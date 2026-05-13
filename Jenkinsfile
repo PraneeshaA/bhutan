@@ -4,7 +4,7 @@ pipeline{
     stage('Hello'){
       steps{
         echo "Demo of pipeline from poll SCM"
-        echo "make changes"
+        cat file1
       }
     }
   }
